@@ -1,0 +1,55 @@
+body,html{
+  margin: 0;
+}
+.box1{
+  height: 380px;
+  display: flex;
+  background-image: url('bali-2011-756.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.h1{
+  color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+.box2{
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.t1{
+  color: white;
+  font-size: 16pt;
+  margin: auto;
+  text-align: center;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 233px;
+  margin-right: 16%;
+}
+.container {
+  padding: 2px 16px;
+  background-color: white;
+  width: 450px;
+}
+.p{
+  color: white;
+  text-align: center;
+  background-color:  #006600;
+  margin:50px 0 0 0;
+  padding-top: 10px;
+  height: 100px;
+}
